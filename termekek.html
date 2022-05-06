@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Termékek</title>
+    <link rel="stylesheet" type="text/css" href="../css/termekek.css" title="normal">
+    <link rel="alternate stylesheet" type="text/css" href="../css/tobbi_nagybetus.css" title="nagybetus">
+    <script src="../scripts/styleswitcher.js"></script>
+</head>
+<body>
+    <nav class="kipozicional">
+        <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+    <header>
+        <nav id="oldalmenu">
+                <figure><a href="../kepek/logo.png" title="A logó"><img id="logo" src="../kepek/logo.png" alt="logo"></a></figure>
+           <ul id="lista" >
+                <li><a href="index.html">Kezdőlap</a></li>
+                <li><a href="termekek.html">Termékek</a></li>
+                <li><a href="fozdelatogatas.html">Főzdelátogatás</a></li>
+                <li><a href="rendeles.html">Rendelés</a></li>
+                <li>
+                    <nav id="gyengenlato"><a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;"><span class="ikon"></span>Nagybetűs változat</a>
+                    <a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;"><span class="ikon"></span>Normál változat</a>
+                    </nav>
+                </li>
+            </ul>
+        </nav>
+        <h1>Termékek</h1>
+    </header>
+<main id="tartalom">
+    <section>
+        <h2>Barna sör</h2>
+        <img src="../kepek/barna.png" alt="Barna Sör">
+        <p>Sötét és édeskés, alkohol tartalmát tekintve 5.6 % -os, közepesen erős, hagyományos felsőerjesztésű barna sör. Ízében a müncheni maláta dominanciája uralkodik, kóstolásánál testes jelleme szembetűnő.</p>
+    </section>
+    <section>
+        <h2>Búza sör</h2>
+        <img src="../kepek/buza.png" alt="Búza sör">
+        <p>Világos búzasörünk. A <span lang="de">Weihenstephan</span> színtenyészet élesztőjével készül, mely a világ legjobb törzseként ismert. Egy búzasör lelke az élesztő, testnek pedig a búzamaláta mellé hagyományos pilzeni malátát választottunk.</p>
+    </section>
+    <section>
+        <h2><span lang="en">Indian Pale Ale</span></h2>
+        <img src="../kepek/ipa.png" alt="Indian Pale Ale">
+        <p>A sörfogyasztók körében rendkívül népszerű amerikai IPA-k (<span lang="en">Indian Pale Ale</span>) családjába tartozó termékünk. 6,5 %-os, félbarna, szűretlen sör. Egyedi malátaképlete testességet, különleges komlói a férfias keserűség mellett citrusos és virágillatokat jelenítenek meg ízvilágában.</p>
+    </section>  
+</main>
+
+</body>
+</html>

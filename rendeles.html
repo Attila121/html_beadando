@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+ <html lang="hu">
+	<head>
+		<meta charset="utf-8">
+		<title>Rendelés</title>
+        <link rel="stylesheet" type="text/css" href="../css/termekek.css" title="normal">
+        <link rel="alternate stylesheet" type="text/css" href="../css/tobbi_nagybetus.css" title="nagybetus">
+        <script src="../scripts/styleswitcher.js"></script>
+	</head>
+<body>
+    <nav class="kipozicional">
+        <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+    <header>
+        <nav id="oldalmenu">
+                <figure><a href="../kepek/logo.png" title="A logó"><img id="logo" src="../kepek/logo.png" alt="logo"></a></figure>
+           <ul id="lista" >
+                <li><a href="index.html">Kezdőlap</a></li>
+                <li><a href="termekek.html">Termékek</a></li>
+                <li><a href="fozdelatogatas.html">Főzdelátogatás</a></li>
+                <li><a href="rendeles.html">Rendelés</a></li>
+                <li>
+                    <nav id="gyengenlato"><a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;"><span class="ikon"></span>Nagybetűs változat</a>
+                    <a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;"><span class="ikon"></span>Normál változat</a>
+                    </nav>
+                </li>
+            </ul>
+        </nav>
+        <h1>Rendelés</h1>
+    </header>
+<main id="tartalom">
+<form action="mailto:gipszjakab@mailinator.com" method="post" enctype="text/plain">
+<fieldset>
+	<label for="nev"><strong>Név</strong></label><br>
+	<input type="text" name="nev" id="nev" size="40"><br>
+    <label for="szuletes"><strong>Születési idő</strong></label><br>
+	<input type="text" name="szuletes" id="szuletes" size="40"><br>
+    <label for="iranyszam"><strong>Irányítószám</strong></label><br>
+	<input type="text" name="iranyszam" id="iranyszam" size="40"><br>
+    <label for="szamcim"><strong>Számlási cím</strong></label><br>
+	<input type="text" name="szamcim" id="szamcim" size="40"><br>
+	<label for="email"><strong>E-mail cím</strong></label><br>
+	<input type="text" name="email" id="email" size="40"><br>
+    <label for="szam"><strong>Telefonszám</strong></label><br>
+	<input type="text" name="szam" id="szam" size="40"><br><br>
+</fieldset>
+<fieldset>
+        <legend>Válassza ki a fizetési módot:</legend>
+
+        <div>
+          <input type="radio" id="bankkartya" name="drone" value="huey"
+                 checked>
+          <label for="bankkartya">Bankkártya</label>
+        </div>
+
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey">
+          <label for="dewey">Kézpénz</label>
+        </div>
+</fieldset>
+
+<fieldset>
+        <table >
+            <tr>
+                <th scope="col">Darabszám</th>
+                <th scope="col">Termék neve</th>
+                <th scope="col">Ára</th>
+            </tr>
+            <tr>
+                <th scope="row"><input type="text" name="ipa" id="ipa" size="4"></th>
+                <td>IPA</td>
+                <td>699Ft/db</td>
+            </tr>
+            <tr>
+                <th scope="row"><input type="text" name="barna" id="barna" size="4"></th>
+                <td>Barna sör</td>
+                <td>749Ft/db</td>
+            </tr><tr>
+                <th scope="row"><input type="text" name="buza" id="buza" size="4"></th>
+                <td>Búza sör</td>
+                <td>799Ft/db</td>
+            </tr>
+        </table>
+        <details >
+            <summary>
+                Terméklista
+            </summary>
+            <p>Az első oszloban az adott sorban megadott termékből kívánt, fél literes palack mennyiségét kell darabszámként megadni.</p>
+                <p>Első oszlopban az IPA(<span lang="en">Indian Pale Ale</span>) termék. Második sorban a barna sör termék. Harmadik sorban pedig a búzasör termékünkből lehet megadni a kívánt mennyiséget.</p>
+        </details>
+</fieldset>
+
+<fieldset>
+	<legend>Adatok elküldése</legend>
+	<input type="submit" value="Elküld">
+	<input type="reset" value="Töröl">
+</fieldset>
+
+</form>
+
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
