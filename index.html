@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Kezdőlap</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css" title="normal">
+    <link rel="alternate stylesheet" type="text/css" href="../css/nagybetus.css" title="nagybetus">
+    <script src="../scripts/styleswitcher.js"></script>
+</head>
+<body>
+    <nav class="kipozicional">
+        <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+    <header>
+        <nav id="oldalmenu">
+                <figure><a href="../kepek/logo.png" title="A logó"><img id="logo" src="../kepek/logo.png" alt="logo" ></a></figure>
+           <ul id="lista" >
+                <li><a href="index.html">Kezdőlap</a></li>
+                <li><a href="termekek.html">Termékek</a></li>
+                <li><a href="fozdelatogatas.html">Főzdelátogatás</a></li>
+                <li><a href="rendeles.html">Rendelés</a></li>
+                <li><nav id="gyengenlato"><a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;"><span class="ikon"></span>Nagybetűs változat</a>
+                    <a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;"><span class="ikon"></span>Normál változat</a>
+                    </nav>
+                </li>
+            </ul>
+        </nav>
+        <h1>Főoldal</h1>
+    </header>
+    <main id="tartalom">
+        <article>
+            <h2>Söreinkről és rólunk</h2>
+            <p>A <span lang="de">Osterbräu</span> rendszerű sörfőzdénk, már több mint 20 éve készíti söreit, a német tisztasági törvény (<span lang="de">Reinheitsgebot</span>) előírásait figyelembe véve.</p><br>
+            <aside id="leiras">
+                <h3>Tisztasági törvény</h3>
+                <p>1516-ban Bajorországban bevezették az úgynevezett <a href="https://hu.wikipedia.org/wiki/Bajor_tisztas%C3%A1gi_t%C3%B6rv%C3%A9ny">tisztasági törvényt</a>, amely a sörfőzéshez csak a négy alapanyag, a maláta, a víz, a komló és az élesztő felhasználását engedélyezte.</p>
+            </aside>
+            <br>
+                <p>Söreinket csapolt formában és palackozva is értékesítjük a magyarországi sörpiacon.</p><br>
+                <p>A termékeinkre jellemző rövidebb eltarthatóságot (8-30 nap) mi értékként éljük meg, mivel söreink garantáltan frissek, így tudunk fogyasztóinknak olyan íz-hatással kedveskedni, melyet a mai multinacionális világban egyre kevésbé találhatunk meg. A mi álltalunk készített sörökhöz hasonlót saját otthonaikban, illetve a kis termelésű sörfőzdékben találhatnak meg amilyen a miénk is.</p><br>
+                <p>A következő videó a sörkészítés technikáját mutatjuk be:</p><br> 
+        </article>
+            <video controls poster="../kepek/sorfozes_video.jpg">
+                <source src="https://www.youtube.com/watch?v=DmYUMZErtHQ&ab_channel=Gy%C3%B6rgyHorv%C3%A1th" type=video/ogg>
+                <source src="../video/sorfozes.mp4" type=video/mp4>
+            </video>
+            <p><a href="./leiras.html">A videó szövegének leírása/feliratozása</a></p>
+    </main>
+    <footer>
+        <p><a href="https://www.youtube.com/watch?v=DmYUMZErtHQ&ab_channel=Gy%C3%B6rgyHorv%C3%A1th">A videó youtube linkje</a></p>
+        
+    </footer>
+
+    
+</body>
+</html>
