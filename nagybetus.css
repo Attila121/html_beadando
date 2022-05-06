@@ -1,0 +1,48 @@
+
+
+@import url('index.css');
+
+body {
+	font-size:2em;
+	
+}
+
+#oldalmenu img{
+    width: 200px;
+    height: 200px;
+}
+
+a#nagybetu{
+	display: none;
+}
+
+a#normalbetu{
+	display: block;
+}
+
+header, main, footer{
+	width: 90%;
+	max-width: 1200px;
+}
+
+nav#gyengenlato{
+	width: 400px;
+}
+
+video{
+    width: 100%;
+}
+
+#lista{
+    margin-top: 5%;
+}
+
+#leiras{
+	float: none;
+	width: 90%;
+	margin: 0;
+}
+
+#leiras p{
+    text-align: left;
+}

@@ -1,0 +1,46 @@
+
+
+@import url('termekek.css');
+
+body {
+	font-size:2em;
+}
+
+a#nagybetu{
+	display: none;
+}
+
+a#normalbetu{
+	display: block;
+}
+
+header, main, footer{
+	width: 90%;
+	max-width: 1200px;
+}
+
+nav#gyengenlato{
+	width: 400px;
+}
+
+#tartalom img{
+    width: 100%;
+}
+
+.latogatas img{
+    width: 4%;
+    height: 4%;
+}
+
+#lista{
+    margin-top: 5%;
+}
+
+input{
+    size: 2em;
+}
+
+#oldalmenu img{
+    width: 200px;
+    height: 200px;
+}
